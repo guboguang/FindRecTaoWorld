@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <!--轮播图控件-->
+    <com.bigkoo.convenientbanner.ConvenientBanner
+        android:id="@+id/cb_banner"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        app:canLoop="true"
+        />
+
+    <!--选项菜单-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_item_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="抢购"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_item_center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_item_left"
+            android:gravity="center"
+            android:text="xx点抢购中"
+            android:textSize="15sp" />
+
+        <!--倒计时-->
+        <com.daidingkang.SnapUpCountDownTimerView
+            android:id="@+id/RushBuyCountDownTimerView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="3dp"
+            android:layout_toRightOf="@+id/tv_item_center"
+            android:gravity="center"
+            app:viewSize="15" />
+
+        <TextView
+            android:id="@+id/tv_item_ringth"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="更多"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+
+    <android.support.v4.view.ViewPager
+        android:layout_marginTop="10dp"
+        android:id="@+id/vp_shop_seckKill"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        />
+
+</LinearLayout>

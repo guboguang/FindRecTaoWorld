@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+   >
+
+    <ImageView
+        android:id="@+id/shop_title_left"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:scaleType="centerCrop"
+        android:padding="12dp"
+        android:src="@mipmap/top_back_red"/>
+    <ImageView
+        android:id="@+id/shop_title_second"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/im_share_pengyouquan"
+        android:layout_toRightOf="@+id/shop_title_left"
+        android:padding="8dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/shop_title_third"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/im_share_weixin"
+        android:layout_toRightOf="@+id/shop_title_second"
+        android:padding="8dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/shop_title_forth"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/im_album_img_select_nor"
+        android:layout_toRightOf="@+id/shop_title_third"
+        android:padding="8dp"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/shop_title_rigth"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@mipmap/top_cart_red"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:padding="8dp"
+        android:scaleType="centerCrop"/>
+
+
+
+</RelativeLayout>

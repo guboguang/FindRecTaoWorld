@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+<!--    <com.flame.icebound.taoworld.modules.home.widget.ImageTagView
+        android:id="@+id/tag"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_brand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/icon_brand"
+            android:textColor="#fff"
+            android:drawablePadding="4dp"
+            android:text="美特使帮我"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/bs_icon_location_whilte"
+            android:textColor="#fff"
+            android:drawablePadding="4dp"
+            android:text="美特使帮我"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:textColor="#fff"
+            android:text="美特使帮我"
+            android:textSize="12sp" />
+
+    </com.flame.icebound.taoworld.modules.home.widget.ImageTagView>-->
+
+
+</RelativeLayout>

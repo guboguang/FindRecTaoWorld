@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ButtonMenu">
+        <attr name="icon_press" format="reference"/>
+        <attr name="icon_normal" format="reference"/>
+        <attr name="text" format="string"/>
+        <attr name="topic_icon" format="reference"/>
+        <attr name="topic_name" format="string"/>
+        <attr name="topic_detail" format="string"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="ExpandableTextView">
+        <attr name="maxCollapsedLines" format="integer" />
+        <attr name="animDuration" format="integer" />
+        <attr name="animAlphaStart" format="float" />
+        <attr name="expandDrawable" format="reference" />
+        <attr name="collapseDrawable" format="reference" />
+        <attr name="expandText" format="string" />
+        <attr name="collapseText" format="string" />
+    </declare-styleable>
+
+    <!-- From: file:/Users/manabu/Documents/private/git/ExpandableTextView/lib/src/main/res/values/ids.xml -->
+    <eat-comment />
+    <item name="expand_collapse" type="id" />
+    <item name="expandable_text" type="id" />
+
+   <!-- <declare-styleable name="ShopTopic">
+        <attr name="topic_icon" format="reference"/>
+        <attr name="topic_name" format="string"/>
+        <attr name="topic_detail" format="string"/>
+    </declare-styleable>-->
+    <declare-styleable name="ScaleView">
+        <attr name="bottom_icon" format="reference"/>
+        <attr name="top_text" format="string"/>
+        <attr name="bottom_text" format="string"/>
+
+    </declare-styleable>
+
+</resources>

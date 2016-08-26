@@ -1,0 +1,14 @@
+Trying to add new property 'svn:ignore'
+but the property already exists.
+<<<<<<< (local property value)
+*.iml
+.gradle
+.idea
+=======
+*.gradle
+*.idea
+.gradle
+.idea
+build
+taoworld.iml
+>>>>>>> (incoming property value)

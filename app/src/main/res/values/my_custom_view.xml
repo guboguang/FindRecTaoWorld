@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable
+        name="MyCustomViewBtn" >
+        <attr name="img_normal" format="reference"></attr>
+        <attr name="img_press" format="reference"></attr>
+        <attr name="color_circle" format="color"></attr>
+        <attr name="dot_num" format="integer"></attr>
+        <attr name="icon_drag" format="reference"></attr>
+    </declare-styleable>
+</resources>

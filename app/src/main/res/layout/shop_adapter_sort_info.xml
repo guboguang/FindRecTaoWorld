@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/iv_sort"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:scaleType="fitCenter"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tv_sort"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="分类"
+        android:textSize="15sp" />
+
+    <com.flame.icebound.taoworld.modules.shop.widget.MyGirdView
+        android:id="@+id/gv_sort"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@android:color/holo_green_dark"
+        android:horizontalSpacing="15dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp" />
+    <!--选项菜单-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+
+        <TextView
+            android:id="@+id/tv_today_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:text="今日推荐"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_today_more"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="更多"
+            android:textSize="15sp"
+            android:layout_marginBottom="5dp"/>
+    </RelativeLayout>
+
+
+</LinearLayout>

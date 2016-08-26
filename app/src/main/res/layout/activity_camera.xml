@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#a000"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#8000">
+
+            <ImageView
+                android:id="@+id/iv_finish"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:onClick="onClickTitle"
+                android:padding="8dp"
+                android:src="@mipmap/abc_ic_clear_mtrl_alpha" />
+
+            <TextView
+                android:id="@+id/tv_images"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:onClick="onClickTitle"
+                android:padding="4dp"
+                android:text="相机胶卷"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+
+            <TextView
+                android:id="@+id/tv_next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:gravity="center_vertical"
+                android:onClick="onClickTitle"
+                android:padding="4dp"
+                android:text="下一步"
+                android:textColor="#fff"
+                android:textSize="22dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/iv_selected"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:background="#fff"
+            android:scaleType="fitCenter" />
+
+        <GridView
+            android:id="@+id/gv_all_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/iv_selected"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="4"
+            android:verticalSpacing="10dp" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/main_grid"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:background="#dfdbdb"
+        android:visibility="gone">
+
+    </ListView>
+
+
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/find_two_item"
+    android:layout_width="match_parent"
+    android:background="#ccc"
+    android:layout_height="235dp"
+    android:orientation="horizontal">
+
+
+   <include layout="@layout/find_list_left_layout"></include>
+
+    <LinearLayout
+        android:id="@+id/myviewoflist_right"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="2dp"
+        android:background="#fff"
+        android:layout_weight="1"
+        android:layout_marginLeft="2dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/list_picture4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@mipmap/tab_discovery_s" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#ccc"/>
+
+        <TextView
+            android:id="@+id/list_tv3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:textSize="10dp"
+            android:layout_marginRight="20dp"
+            android:text="@string/judy_asang" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/list_picture5"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@mipmap/tab_mine_s" />
+
+            <TextView
+                android:id="@+id/list_tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:textSize="10dp"
+                android:text="早上的风" />
+
+            <ImageView
+                android:id="@+id/list_picture6"
+                android:layout_width="20dp"
+                android:background="@drawable/find_selec_like"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:clickable="true"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

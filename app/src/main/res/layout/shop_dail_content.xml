@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/rl_shop_first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <TextView
+            android:id="@+id/tv_shop_dail_priceNow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="salkfdjslka"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_shop_dail_orginalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_shop_dail_priceNow"
+            android:text="sdkljfsd" />
+
+        <TextView
+            android:id="@+id/tv_shop_dail_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_shop_dail_orginalPrice"
+            android:text="销量0" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_shop_second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_shop_first"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_shop_dail_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="香港" />
+
+        <TextView
+            android:id="@+id/tv_shop_dail_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tv_shop_dail_country"
+            android:text="邮费" />
+
+        <TextView
+            android:id="@+id/tv_shop_dail_tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tv_shop_dail_send"
+            android:text="税费?" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_shop_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rl_shop_second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_shop_dail_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ios" />
+
+        <TextView
+            android:id="@+id/tv_shop_dail_isfree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/tv_shop_dail_num"
+            android:text="包邮包税?" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_shop_dail_person"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/rl_shop_third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="8个人收藏此商品"/>
+    <LinearLayout
+        android:id="@+id/ll_shop_dail_imgGrounp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/tv_shop_dail_person"
+        android:layout_centerHorizontal="true"
+        android:layout_height="60dp">
+
+    </LinearLayout>
+
+
+</RelativeLayout>

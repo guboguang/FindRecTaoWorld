@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/find_title"
+    android:background="#cccc"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="品质生活"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="3dp"
+        android:orientation="horizontal">
+
+        <com.flame.icebound.taoworld.modules.find.widget.BrandLifeView
+            android:id="@+id/oneLife"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="3dp"
+            />
+
+        <com.flame.icebound.taoworld.modules.find.widget.BrandLifeView
+            android:id="@+id/twoLife"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginLeft="3dp"
+        android:orientation="horizontal">
+
+        <com.flame.icebound.taoworld.modules.find.widget.BrandLifeView
+            android:id="@+id/threeLife"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <com.flame.icebound.taoworld.modules.find.widget.BrandLifeView
+            android:id="@+id/fourLife"
+            android:layout_margin="3dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="25dp">
+        <TextView
+           android:gravity="left"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:text="品牌热度"
+            android:layout_height="match_parent" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <TextView
+            android:gravity="right"
+            android:textSize="15sp"
+            android:text="更多 > "
+            android:layout_marginRight="10dp"
+            android:textColor="#000"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.flame.icebound.taoworld.modules.find.widget.BrandView
+            android:id="@+id/brand_view1"
+            android:background="#fff"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.flame.icebound.taoworld.modules.find.widget.BrandView>
+        <com.flame.icebound.taoworld.modules.find.widget.BrandView
+            android:id="@+id/brand_view2"
+            android:background="#f80"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.flame.icebound.taoworld.modules.find.widget.BrandView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.flame.icebound.taoworld.modules.find.widget.BrandView
+            android:id="@+id/brand_view3"
+            android:background="#f80"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.flame.icebound.taoworld.modules.find.widget.BrandView>
+
+        <com.flame.icebound.taoworld.modules.find.widget.BrandView
+            android:id="@+id/brand_view4"
+            android:layout_weight="1"
+            android:background="#0f0"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </com.flame.icebound.taoworld.modules.find.widget.BrandView>
+
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:expandableTextView="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#fff"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical">
+
+    <!-- <include layout="@layout/item_home_header" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vp_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v4.view.ViewPager>
+            <LinearLayout
+                android:id="@+id/ll_indicator"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:orientation="horizontal">
+               <!-- <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/selector_home_inditator"/>-->
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+        <!--话题详情-->
+        <com.flame.icebound.taoworld.modules.home.widget.ExpandableTextView
+            android:id="@+id/expand_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="15dp"
+            expandableTextView:animDuration="200"
+            expandableTextView:collapseText="收起"
+            expandableTextView:expandText="查看全部"
+            expandableTextView:maxCollapsedLines="5">
+
+            <TextView
+                android:id="@id/expandable_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:lineSpacingExtra="10dp"
+                android:textColor="#666666"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@id/expand_collapse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left|bottom"
+                android:background="@android:color/transparent"
+                android:gravity="left"
+                android:padding="5dp"
+                android:textColor="#886e6d6d" />
+        </com.flame.icebound.taoworld.modules.home.widget.ExpandableTextView>
+
+        <!--Tag热词-->
+        <com.flame.icebound.taoworld.widget.FlowLayout
+            android:id="@+id/fl_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp">
+
+        </com.flame.icebound.taoworld.widget.FlowLayout>
+        <!--评论-->
+        <LinearLayout
+            android:id="@+id/ll_home_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="查看所有评论"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_add_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/contact_btn_bg"
+            android:drawablePadding="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp"
+            android:text="添加评论" />
+        <!--点赞和分享-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginBottom="10dp">
+
+            <TextView
+                android:id="@+id/tv_share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:drawableLeft="@mipmap/icon_byuer_share"
+                android:drawablePadding="2dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="分享" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@id/tv_share"
+                android:drawableLeft="@mipmap/icon_new_home_like"
+                android:drawablePadding="2dp"
+                android:paddingBottom="8dp"
+                android:paddingTop="8dp"
+                android:text="34" />
+
+        </RelativeLayout>
+        <!--推荐商品-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1">
+
+            <ListView
+                android:id="@+id/lv_home_stock"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

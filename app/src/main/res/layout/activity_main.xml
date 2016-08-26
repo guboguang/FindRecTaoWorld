@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <com.flame.icebound.taoworld.widget.ButtonMenu
+            android:id="@+id/bm_home"
+            style="@style/ButtonMenuStyle"
+            app:icon_press="@mipmap/tab_live_s"
+            app:icon_normal="@mipmap/tab_live_u"
+            app:text="首页"
+            >
+        </com.flame.icebound.taoworld.widget.ButtonMenu>
+        <com.flame.icebound.taoworld.widget.ButtonMenu
+            android:id="@+id/bm_find"
+            style="@style/ButtonMenuStyle"
+            app:icon_press="@mipmap/tab_discovery_s"
+            app:icon_normal="@mipmap/tab_discovery_u"
+            app:text="发现"
+            >
+        </com.flame.icebound.taoworld.widget.ButtonMenu>
+        <com.flame.icebound.taoworld.widget.ButtonMenu
+            android:id="@+id/bm_shop"
+            style="@style/ButtonMenuStyle"
+            app:icon_press="@mipmap/tab_buy_s"
+            app:icon_normal="@mipmap/tab_buy_u"
+            app:text="购买"
+            >
+        </com.flame.icebound.taoworld.widget.ButtonMenu>
+        <com.flame.icebound.taoworld.widget.ButtonMenu
+            android:id="@+id/bm_message"
+            style="@style/ButtonMenuStyle"
+            app:icon_press="@mipmap/tab_msg_s"
+            app:icon_normal="@mipmap/tab_msg_u"
+            app:text="消息"
+            >
+        </com.flame.icebound.taoworld.widget.ButtonMenu>
+        <com.flame.icebound.taoworld.widget.ButtonMenu
+            android:id="@+id/bm_mine"
+            style="@style/ButtonMenuStyle"
+            app:icon_press="@mipmap/tab_mine_s"
+            app:icon_normal="@mipmap/tab_mine_u"
+            app:text="我的"
+            >
+        </com.flame.icebound.taoworld.widget.ButtonMenu>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

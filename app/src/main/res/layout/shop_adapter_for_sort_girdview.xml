@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:id="@+id/iv_sort_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@android:mipmap/sym_def_app_icon"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/tv_sort_onetitle"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="kl;sajfdk;lsafjd"/>
+    <TextView
+        android:id="@+id/tv_sort_content"
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="skafdmsl"/>
+
+</LinearLayout>

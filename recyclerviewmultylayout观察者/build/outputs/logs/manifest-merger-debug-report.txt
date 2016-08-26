@@ -1,0 +1,300 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:2:1-148:12
+	xmlns:android
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:2:11-69
+	package
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:3:5-51
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+permission#com.qianfeng.recyclerviewmultylayout.permission.JPUSH_MESSAGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:5:5-7:47
+	android:protectionLevel
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:7:9-44
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:6:9-85
+uses-permission#com.qianfeng.recyclerviewmultylayout.permission.JPUSH_MESSAGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:10:5-101
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:10:22-98
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:11:5-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:11:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:12:5-67
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:12:22-64
+uses-permission#android.permission.WAKE_LOCK
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:13:5-68
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:13:22-65
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:14:5-75
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:14:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:15:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:16:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:17:22-63
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:18:5-84
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:18:22-81
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:20:5-73
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:20:22-70
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:23:5-81
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:23:22-78
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:24:5-76
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:24:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:25:5-76
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:25:22-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:26:22-76
+uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:27:5-89
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:27:22-86
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:28:22-76
+application
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:30:5-146:19
+MERGED from [com.android.support:appcompat-v7:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:35:9-35
+	android:label
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:34:9-41
+	android:allowBackup
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:32:9-35
+	android:icon
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:33:9-43
+	android:theme
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:36:9-40
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:31:9-40
+activity#com.qianfeng.recyclerviewmultylayout.MainActivity
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:37:9-43:20
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:37:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:38:13-42:29
+action#android.intent.action.MAIN
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:39:17-69
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:39:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:41:17-77
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:41:27-74
+service#cn.jpush.android.service.PushService
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:48:9-58:19
+	android:exported
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:51:13-37
+	android:enabled
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:50:13-35
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:49:13-64
+intent-filter#cn.jpush.android.intent.PUSH_TIME+cn.jpush.android.intent.PushService+cn.jpush.android.intent.REGISTER+cn.jpush.android.intent.REPORT
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:52:13-57:29
+action#cn.jpush.android.intent.REGISTER
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:53:17-75
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:53:25-72
+action#cn.jpush.android.intent.REPORT
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:54:17-73
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:54:25-70
+action#cn.jpush.android.intent.PushService
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:55:17-78
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:55:25-75
+action#cn.jpush.android.intent.PUSH_TIME
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:56:17-76
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:56:25-73
+service#cn.jpush.android.service.DaemonService
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:62:9-70:19
+	android:exported
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:65:13-36
+	android:enabled
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:64:13-35
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:63:13-66
+intent-filter#cn.jpush.android.intent.DaemonService+com.qianfeng.recyclerviewmultylayout
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:66:13-69:29
+action#cn.jpush.android.intent.DaemonService
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:67:17-80
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:67:25-77
+category#com.qianfeng.recyclerviewmultylayout
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:68:17-81
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:68:27-78
+receiver#cn.jpush.android.service.PushReceiver
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:73:9-91:20
+	android:enabled
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:75:13-35
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:74:13-65
+intent-filter#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY+com.qianfeng.recyclerviewmultylayout
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:76:13-79:29
+	android:priority
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:76:28-51
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:77:17-94
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:77:25-91
+intent-filter#android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:80:13-83:29
+action#android.intent.action.USER_PRESENT
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:81:17-77
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:81:25-74
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:82:17-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:82:25-76
+intent-filter#android.intent.action.PACKAGE_ADDED+android.intent.action.PACKAGE_REMOVED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:85:13-90:29
+action#android.intent.action.PACKAGE_ADDED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:86:17-78
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:86:25-75
+action#android.intent.action.PACKAGE_REMOVED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:87:17-80
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:87:25-77
+data
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:89:17-50
+	android:scheme
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:89:23-47
+activity#cn.jpush.android.ui.PushActivity
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:93:9-103:20
+	android:configChanges
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:95:13-63
+	android:exported
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:96:13-37
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:94:13-60
+intent-filter#android.intent.category.DEFAULT+cn.jpush.android.ui.PushActivity+com.qianfeng.recyclerviewmultylayout
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:97:13-102:29
+action#cn.jpush.android.ui.PushActivity
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:98:17-75
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:98:25-72
+category#android.intent.category.DEFAULT
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:100:17-76
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:100:27-73
+service#cn.jpush.android.service.DownloadService
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:105:9-108:48
+	android:exported
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:108:13-37
+	android:enabled
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:107:13-35
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:106:13-68
+receiver#cn.jpush.android.service.AlarmReceiver
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:110:9-75
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:110:19-72
+receiver#com.qianfeng.recyclerviewmultylayout.NewsReceiver
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:113:9-131:20
+	android:enabled
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:115:13-35
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:114:13-41
+intent-filter#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK+cn.jpush.android.intent.CONNECTION+cn.jpush.android.intent.MESSAGE_RECEIVED+cn.jpush.android.intent.NOTIFICATION_OPENED+cn.jpush.android.intent.NOTIFICATION_RECEIVED+cn.jpush.android.intent.REGISTRATION+com.qianfeng.recyclerviewmultylayout
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:116:13-130:29
+action#cn.jpush.android.intent.REGISTRATION
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:118:17-79
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:118:25-76
+action#cn.jpush.android.intent.MESSAGE_RECEIVED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:120:17-83
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:120:25-80
+action#cn.jpush.android.intent.NOTIFICATION_RECEIVED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:122:17-88
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:122:25-85
+action#cn.jpush.android.intent.NOTIFICATION_OPENED
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:124:17-86
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:124:25-83
+action#cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:126:17-91
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:126:25-88
+action#cn.jpush.android.intent.CONNECTION
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:128:17-77
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:128:25-74
+meta-data#JPUSH_CHANNEL
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:139:9-141:49
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:140:13-41
+	android:value
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:141:13-46
+meta-data#JPUSH_APPKEY
+ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:143:9-145:56
+	android:name
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:144:13-40
+	android:value
+		ADDED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml:145:13-53
+uses-sdk
+INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:animated-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.3.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\AndroidManifest.xml:20:5-43
+	android:targetSdkVersion
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+		INJECTED from F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:23.3.0] F:\GuboguangProject\FindRecTaoWorld\recyclerviewmultylayout观察者\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\AndroidManifest.xml:23:9-75
